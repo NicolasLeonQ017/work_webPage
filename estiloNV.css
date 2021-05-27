@@ -1,0 +1,42 @@
+
+.navbar {
+    background-color: #4C4A4A !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,.05);
+    min-height: 100px;
+}
+
+.nav-link {
+    color: #1a1a1a;
+    margin-right: 15px;
+}
+
+.nav-link:hover { /* Usamos el :hover para que cuando se ponga el cursor en los botones con esa etiqueta que el color no se ponga azul por ser un link. */
+    color: #1a1a1a;
+}
+
+.bg-dark {
+    min-height: 40px;
+    background-color: #FF0000 !important;
+}
+
+.logo-empresa {
+    min-width: 200px;
+    max-width: 250px;
+    margin-left: 20px;
+}
+
+.navbar-toggler {
+   font-size: 40px; 
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+.slide{
+    margin-top: 0px;
+}
+
+.slide img {
+    height: 65vh;
+}
